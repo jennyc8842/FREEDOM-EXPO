@@ -40,6 +40,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  display: flex;
 }
 
 .topnav a:hover {
@@ -51,4 +52,10 @@ body {
   background-color: #4CAF50;
   color: white;
 }
-   
+
+.sticky {
+  position: sticky;
+  margin: 0px;
+  top: 0px;
+  z-index: 1;
+}
