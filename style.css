@@ -22,10 +22,12 @@ h2 {
 img {
   opacity: 0.8;
   background: beige;
+  border: 2px solid #33ccff;
 }
 
 body {
   background: linear-gradient(to right, #ffffff 0%, #33ccff 100%);
+  text-align: center;
 }
 
 .topnav {
