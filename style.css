@@ -7,28 +7,21 @@ h1:hover {
 
 h2 { 
   text-align: center;
-  animation: hi 3s infinite;
 }
-
-@keyframes hi {
-  0% {background: white;}
-  25% {background: rgba(0, 255, 191, 0.26)}
-  50% {background: lightblue;}
-  75% {background: rgba(0, 225, 255, 0.76);}
-  100% {background: rgba(0, 255, 179, 0.548);}
-}
-
 
 img {
   opacity: 0.8;
   background: beige;
   border: 2px solid #33ccff;
+  height: 550px;
+  width: 650px;
 }
 
 body {
   background: linear-gradient(to right, #ffffff 0%, #33ccff 100%);
   text-align: center;
 }
+
 
 .topnav {
   overflow: hidden;
@@ -61,3 +54,30 @@ body {
   top: 0px;
   z-index: 1;
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 150px; 
+  background-color: rgb(255, 255, 255);
+  border: 3px dotted yellow;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 300px), (min-wdth: 600px) {
+   img { height: 320px; width: 340px; }
+   .column { height: 200px; }
+  
+}
+
+
