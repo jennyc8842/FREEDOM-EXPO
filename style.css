@@ -80,4 +80,11 @@ body {
   
 }
 
+.button {
+  background: inherit;
+  cursor: pointer;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
 
