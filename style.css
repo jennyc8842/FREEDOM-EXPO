@@ -87,4 +87,29 @@ body {
   text-decoration: none;
 }
 
+.imageborder1 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(greenborder.jpg) 20% round;
+  border-image-slice: 15;
+  width: 50%;
+}
+
+.imageborder2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(yellowborder.png) 20% round;
+  border-image-slice: 15;
+  width: 50%;
+}
+
+.imageborder3 {
+  border: 10px solid transparent;
+  padding: 10px;
+  border-image: url(redborder.png) 20% round;
+  border-image-slice: 10;
+  width: 50%;
+}
+
+
 
