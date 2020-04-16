@@ -14,8 +14,8 @@ img {
   opacity: 0.8;
   background: beige;
   border: 2px solid #33ccff;
-  height: 550px;
-  width: 650px;
+  height: 2150px;
+  width: 1150px;
 }
 
 body {
@@ -56,6 +56,11 @@ body {
   z-index: 1;
 }
 
+@media (min-width: 300px), (min-wdth: 400px) {
+   img { height: 320px; width: 340px; }
+   .column { height: 200px; }
+  
+}
 
 * {
   box-sizing: border-box;
@@ -75,11 +80,7 @@ body {
   clear: both;
 }
 
-@media (min-width: 300px), (min-wdth: 600px) {
-   img { height: 320px; width: 340px; }
-   .column { height: 200px; }
-  
-}
+
 
 .button {
   background: inherit;
@@ -165,3 +166,7 @@ body {
   to {opacity: 1}
 }
 
+ .responsive {
+  max-width: 100%;
+  height: auto;
+}
