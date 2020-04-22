@@ -1,6 +1,7 @@
 h1 { 
   text-align: center;
   color: white;
+  font-family:wishful;
 }
 h1:hover {
   color: blue;
@@ -8,6 +9,7 @@ h1:hover {
 
 h2 { 
   text-align: center;
+  font-family:fun;
 }
 
 img {
@@ -169,6 +171,16 @@ body {
  .responsive {
   max-width: 100%;
   height: auto;
+}
+
+ @font-face{
+font-family:wishful;
+src: url("Wishfulwaves.ttf")
+}
+
+@font-face{
+font-family:fun;
+src: url("FunSized.ttf")
 }
 
 
