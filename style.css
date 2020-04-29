@@ -183,4 +183,19 @@ font-family:fun;
 src: url("FunSized.ttf")
 }
 
+@font-face{
+font-family:tt;
+src: url("TT.ttf")
+}
 
+p {
+  font-family: tt;
+}
+
+ol {
+  font-family: tt;
+}
+
+h3 {
+  font-family: tt; 
+}
