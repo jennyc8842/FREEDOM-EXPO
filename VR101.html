@@ -6,6 +6,7 @@
   <a href="VR101.html">V.R 101</a>
   <a href="Top4.html">Top 4 V.R Sets</a>
   <a href="Uses.html">Uses</a>
+  <a href="me.html">Author</a>
 </div>
 
     <h2> V.R 101 </h2>
@@ -53,6 +54,29 @@
   border-image-slice: 10;
   width: 50%;
 }
+
+.accordion {
+    background-color: #4ED95C;
+    color: white;
+    cursor: pointer;
+    font-family: fun;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    transition: .4s;
+
+  }
+  .accordian:hover {
+    background-color: white;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
   
   
 }
@@ -96,6 +120,31 @@
 <br>
 
 <center><img src="https://camo.githubusercontent.com/6f744a6c30ca8dd53ad36f5e7915ef697c7d57ff/687474703a2f2f736f6e696373636f6f702e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031382f30322f706963312e706e67" height="400" width="600"class="imageborder1 responsive"></center>
+
+<br>
+
+<button class="accordion">Websites Used</button>
+    <div class="panel">
+     <a href="https://www.newgenapps.com/blog/how-vr-works-technology-behind-virtual-reality/">Link 1</a>
+<br>
+     <a href="https://electronics.howstuffworks.com/gadgets/other-gadgets/virtual-reality.htm">Link 2</a>
+
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+ acc[i].addEventListener("click", function() {
+   var panel = this.nextElementSibling;
+   if (panel.style.display === "block") {
+     panel.style.display = "none";
+   } else {
+     panel.style.display = "block";
+   }
+ });
+}
+ </script> 
 
 
 

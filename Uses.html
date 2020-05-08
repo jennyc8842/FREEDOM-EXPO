@@ -6,6 +6,7 @@
   <a href="VR101.html">V.R 101</a>
   <a href="Top4.html">Top 4 V.R Sets</a>
   <a href="Uses.html">Uses</a>
+  <a href="me.html">Author</a>
 </div>
     <h2> Uses </h2>
     <meta charset="utf-8">
@@ -39,7 +40,31 @@
   padding: 0px;
   border-image-slice: 10;
   width: 50%;
+
 }
+
+.accordion {
+    background-color: #E87268;
+    color: white;
+    cursor: pointer;
+    font-family: fun;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    transition: .4s;
+
+  }
+  .accordian:hover {
+    background-color: white;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
   
 }
 
@@ -56,7 +81,28 @@
 
 <center><img src="https://camo.githubusercontent.com/df575dfe5f6048ee68ad7b496cf3f4d43e6251bd/68747470733a2f2f692e7974696d672e636f6d2f76692f4a513273574d46785f49592f6d617872657364656661756c742e6a7067"height="400" width="600"class="imageborder3 responsive"></center>
 
+<button class="accordion">Websites Used</button>
+    <div class="panel">
+     <a href="https://www.fdmgroup.com/5-uses-for-virtual-reality/">Link 1</a>
+<br>
+     <a href="https://www.livescience.com/53392-virtual-reality-tech-uses-beyond-gaming.html">Link 2</a>
 
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+ acc[i].addEventListener("click", function() {
+   var panel = this.nextElementSibling;
+   if (panel.style.display === "block") {
+     panel.style.display = "none";
+   } else {
+     panel.style.display = "block";
+   }
+ });
+}
+ </script> 
   
     <script src="script.js"></script>
 

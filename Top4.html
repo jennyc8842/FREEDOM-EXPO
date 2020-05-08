@@ -6,6 +6,7 @@
   <a href="VR101.html">V.R 101</a>
   <a href="Top4.html">Top 4 V.R Sets</a>
   <a href="Uses.html">Uses</a>
+  <a href="me.html">Author</a>
 </div>
     <h2> Top 4 V.R sets </h2>
     <meta charset="utf-8">
@@ -39,6 +40,29 @@
   75% {background: #E6E60E;}
   100% {background: #FFFF00;}
 }
+
+.accordion {
+    background-color: #EDED28;
+    color: white;
+    cursor: pointer;
+    font-family: fun;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    transition: .4s;
+
+  }
+  .accordian:hover {
+    background-color: white;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
 
 
   </style>
@@ -192,6 +216,33 @@
 </div>
 
 
+<br>
+<br>
+<br>
+<br>
+
+<button class="accordion">Websites Used</button>
+    <div class="panel">
+     <a href="https://www.republiclab.com/best-vr-headsets/">Link 1</a>
+<br>
+     <a href="https://www.techradar.com/news/the-best-vr-headset">Link 2</a>
+
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+ acc[i].addEventListener("click", function() {
+   var panel = this.nextElementSibling;
+   if (panel.style.display === "block") {
+     panel.style.display = "none";
+   } else {
+     panel.style.display = "block";
+   }
+ });
+}
+ </script> 
 
 
 

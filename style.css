@@ -61,6 +61,29 @@ body {
 @media (min-width: 300px), (min-wdth: 400px) {
    img { height: 320px; width: 340px; }
    .column { height: 200px; }
+
+   .accordion {
+    background-color: #E87268;
+    color: white;
+    cursor: pointer;
+    font-family: fun;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    transition: .4s;
+
+  }
+  .accordian:hover {
+    background-color: white;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
   
 }
 
@@ -72,7 +95,7 @@ body {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 150px; 
+  height: 190px; 
   background-color: rgb(255, 255, 255);
   border: 3px dotted yellow;
 }
@@ -198,4 +221,13 @@ ol {
 
 h3 {
   font-family: tt; 
+}
+
+
+  .imageborder5 {
+  border: 5px dotted cyan;
+  padding: 0px;
+  border-image: url(https://dijf55il5e0d1.cloudfront.net/images/na/6/6/4/66480_1000.jpg) 20% round;
+  border-image-slice: 10;
+  width: 50%;
 }
