@@ -62,9 +62,9 @@ body {
    img { height: 320px; width: 340px; }
    .column { height: 200px; }
 
-   .accordion {
-    background-color: #E87268;
-    color: white;
+.accordion {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
     cursor: pointer;
     font-family: fun;
     padding: 10px;
@@ -84,6 +84,7 @@ body {
     overflow: hidden;
   }
 
+   
   
 }
 
