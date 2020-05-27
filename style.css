@@ -96,7 +96,7 @@ body {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 190px; 
+  height: 200px; 
   background-color: rgb(255, 255, 255);
   border: 3px dotted yellow;
 }
@@ -214,6 +214,7 @@ src: url("TT.ttf")
 
 p {
   font-family: tt;
+  font-size: 20px;
 }
 
 ol {
