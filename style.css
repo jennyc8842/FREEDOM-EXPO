@@ -230,7 +230,8 @@ h3 {
   .imageborder5 {
   border: 5px dotted cyan;
   padding: 0px;
-  border-image: url(https://dijf55il5e0d1.cloudfront.net/images/na/6/6/4/66480_1000.jpg) 20% round;
+  border-image: url(https://www.itl.cat/pngfile/big/18-181512_pink-and-blue-background-marble.jpg) 20% round;
   border-image-slice: 10;
   width: 50%;
 }
+

@@ -26,6 +26,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 <style>
+
+  .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
 body {
    background: linear-gradient(to right, #ffffff 0%,  #00ffff
  100%);
@@ -59,6 +75,9 @@ body {
   75% {background: #33ffff;}
   100% {background:  #00ffff;}
 }
+
+
+
 </style>
 
 <br>
@@ -66,8 +85,11 @@ body {
 <h2> About Me </h2>
 
 <br>
-
-<img src="https://i.pinimg.com/originals/1e/45/fb/1e45fb4adcc1252b6785891254918eec.png" class="imageborder5 responsive">
+<div class="flex-container container-md">
+  <img src="https://i.pinimg.com/originals/1e/45/fb/1e45fb4adcc1252b6785891254918eec.png" class="imageborder5 responsive">
+  <img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" class="imageborder5 responsive">
+  
+</div>
 
 
 <br>
