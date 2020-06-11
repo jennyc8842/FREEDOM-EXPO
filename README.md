@@ -21,4 +21,8 @@ Lastly, virtual reality will impact the education system. Virtual reality are gr
 
 <b>Product</b>
 
+https://jennyc8842.github.io/FREEDOM-EXPO/
+
 <b>Presentation</b>
+
+https://drive.google.com/file/d/1gC6LekBCe9gLM4cAEbpBLm3OmiML5XEr/view
